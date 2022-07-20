@@ -33,10 +33,17 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: #FFFFFF;
-    background-color: #DD0000;
     padding: 10px 20px;
     border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    box-shadow: inset 0 0 0 0 black;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.link-button:hover {
+    box-shadow: inset 150px 0 0 0 black;
 }
 
 .half-width img {
@@ -165,7 +172,8 @@ footer {
     background-color: #161616;
     color: #FFFFFF;
     text-align: center;
-    padding: 130px 0;
+    padding-top: 130px;
+    padding-bottom: 80px;
     margin-top: 150px;
 }
 
@@ -196,6 +204,15 @@ hr {
     font-size: 16px;
     font-weight: 500;
     color: #B9B9B9;
+}
+
+.social a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 80px;
+    padding: 10px 15px;
 }
 
 /* -----------------------
@@ -405,5 +422,11 @@ resposivness for mobile
         font-size: 14px;
 
     }
+
+    .social a {
+        margin-top: 20px;
+        padding: 10px 15px;
+    }
+
 
 }

@@ -35,10 +35,17 @@ body {
 
 .link-button {
     text-decoration: none;
-    color: #FFFFFF;
-    background-color: #DD0000;
     padding: 10px 20px;
     border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    box-shadow: inset 0 0 0 0 black;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.link-button:hover {
+    box-shadow: inset 150px 0 0 0 black;
 }
 
 .half-width img {
@@ -210,6 +217,16 @@ hr {
     color: #B9B9B9;
 }
 
+
+.social a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 80px;
+    padding: 10px 15px;
+}
+
 /* -----------------------
 resposivness for tablet
 ----------------------- */
@@ -319,6 +336,7 @@ resposivness for tablet
         grid-column-end: 3;
     }
 
+
 }
 
 /* -----------------------
@@ -407,6 +425,7 @@ resposivness for mobile
         margin-top: 50px;
     }
 
+
     footer h1 {
         font-size: 25px;
         margin: 0;
@@ -429,6 +448,10 @@ resposivness for mobile
     .item a {
         font-size: 14px;
 
+    }
+
+    .social a {
+        margin-top: 20px;
     }
 
 }
