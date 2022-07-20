@@ -218,7 +218,7 @@ hr {
 }
 
 
-.social a {
+.social>a>i {
     text-decoration: none;
     color: #FFFFFF;
     display: inline-block;
