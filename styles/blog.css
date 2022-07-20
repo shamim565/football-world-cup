@@ -225,7 +225,13 @@ hr {
     font-size: 25px;
     margin-top: 80px;
     padding: 10px 15px;
+    transition: ease-out color 0.3s;
 }
+
+.social>a:hover i {
+    color: #DD0000;
+}
+
 
 /* -----------------------
 resposivness for tablet
